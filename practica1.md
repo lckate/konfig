@@ -14,24 +14,30 @@
 ## Задача 3
 
 Написать программу banner средствами bash для вывода текстов:
+
 ![image](https://github.com/lckate/konfig_menegment/blob/1e74e022486b70e76d47d1f71d2b8fea79749304/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(2)%20(2).png)
+![image](https://github.com/lckate/konfig_menegment/blob/1e74e022486b70e76d47d1f71d2b8fea79749304/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(3).png)
 
 
 
 ## Задача 4
 
 Написать программу для вывода всех идентификаторов (по правилам C/C++ или Java) в файле (без повторений).
-
 ![image](https://github.com/lckate/konfig_menegment/blob/1e74e022486b70e76d47d1f71d2b8fea79749304/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(1)%20(2).png)
 
 ## Задача 5
 
 Написать программу для регистрации пользовательской команды (правильные права доступа и копирование в /usr/local/bin).
 
+![image](https://github.com/lckate/konfig_menegment/blob/f462e87fd8a691cadcef4cb98b61b8eb8bfb0031/Screenshot%20(119).png)
+![image](https://github.com/lckate/konfig_menegment/blob/f462e87fd8a691cadcef4cb98b61b8eb8bfb0031/Screenshot%20(120).png)
 
 ## Задача 6
 
 Написать программу для проверки наличия комментария в первой строке файлов с расширением c, js и py.
+![image](https://github.com/lckate/konfig_menegment/blob/f462e87fd8a691cadcef4cb98b61b8eb8bfb0031/Screenshot%20(123).png)
+![image](https://github.com/lckate/konfig_menegment/blob/f462e87fd8a691cadcef4cb98b61b8eb8bfb0031/Screenshot%20(124).png)
+
 
 ## Задача 7
 
