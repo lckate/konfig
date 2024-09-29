@@ -1,6 +1,7 @@
 ## Задача 1
 
 Вывести отсортированный в алфавитном порядке список имен пользователей в файле passwd (вам понадобится grep).  
+
 ![image](https://github.com/lckate/konfig_menegment/blob/f462e87fd8a691cadcef4cb98b61b8eb8bfb0031/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(1).png)
 
 
@@ -8,14 +9,7 @@
 
 Вывести данные /etc/protocols в отформатированном и отсортированном порядке для 5 наибольших портов, как показано в примере ниже:
 
-```
-[root@localhost etc]# cat /etc/protocols ...
-142 rohc
-141 wesp
-140 shim6
-139 hip
-138 manet
-```
+![image](https://github.com/lckate/konfig_menegment/blob/f462e87fd8a691cadcef4cb98b61b8eb8bfb0031/Screenshot%20(116).png)
 
 ## Задача 3
 
