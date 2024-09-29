@@ -8,6 +8,7 @@
 ## Задача 2
 
 Вывести данные /etc/protocols в отформатированном и отсортированном порядке для 5 наибольших портов:
+![image](https://github.com/lckate/konfig_menegment/blob/c4731487582fe21940e5ed81c11c9ad9c804cf08/Screenshot%20(117).png)
 
 ![image]()
 
