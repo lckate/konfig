@@ -14,7 +14,7 @@
 ## Задача 3
 
 Написать программу banner средствами bash для вывода текстов:
-
+![image](https://github.com/lckate/konfig_menegment/blob/1e74e022486b70e76d47d1f71d2b8fea79749304/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(2)%20(2).png)
 
 
 
