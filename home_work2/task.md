@@ -9,6 +9,6 @@
 • Максимальная глубина анализа зависимостей.    
 Все функции визуализатора зависимостей должны быть покрыты тестами.  
 ### Созданный граф
-![image](https://github.com/lckate/konfig_menegment/blob/main/home_work2/graph.png.png)
+![image](https://github.com/lckate/konfig_menegment/blob/main/home_work2/graph.png)
 ### Вывод программы
 ![image](https://github.com/lckate/konfig_menegment/blob/main/home_work2/test_conf2.png)
