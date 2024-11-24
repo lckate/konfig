@@ -11,4 +11,4 @@
 ### Созданный граф
 ![image](https://github.com/lckate/konfig_menegment/blob/main/home_work2/graph.png.png)
 ### Вывод программы
-![image]()
+![image](https://github.com/lckate/konfig_menegment/blob/main/home_work2/test_conf2.png)
