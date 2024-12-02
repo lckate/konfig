@@ -1,0 +1,11 @@
+
+add = ["3", "4", "+"]
+subtract = ["10", "7", "-"]
+multiply = ["6", "5", "*"]
+sqrt_test = ["16", "sqrt"]
+abs_positive = ["42", "abs"]
+abs_negative = ["-42", "abs"]
+
+complex_expr = ["2", "3", "+", "16", "sqrt", "*"]
+
+mixed_expr = ["-5", "abs", "10", "+"]

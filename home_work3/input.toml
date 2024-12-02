@@ -1,0 +1,8 @@
+[server]
+host = "localhost"
+port = 8080
+
+[Settings]
+[Settings.Measurement]
+type = "time"
+sec = 60

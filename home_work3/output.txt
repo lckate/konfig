@@ -1,0 +1,15 @@
+server := [
+  host => 'localhost',
+  port => 8080
+]
+Database := [
+  user => 'admin',
+  password => 'password',
+  timeout => 30
+]
+Settings := [
+  Measurement => [
+  type => 'time',
+  sec => 60
+]
+]

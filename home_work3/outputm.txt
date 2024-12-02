@@ -1,0 +1,8 @@
+add := ^(3 4 +) # 7.0
+subtract := ^(10 7 -) # 3.0
+multiply := ^(6 5 *) # 30.0
+sqrt_test := ^(16 sqrt) # 4.0
+abs_positive := ^(42 abs) # 42.0
+abs_negative := ^(-42 abs) # 42.0
+complex_expr := ^(2 3 + 16 sqrt *) # 20.0
+mixed_expr := ^(-5 abs 10 +) # 15.0
