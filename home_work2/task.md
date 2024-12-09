@@ -11,9 +11,10 @@
 • Дата коммитов в репозитории.  
 Все функции визуализатора зависимостей должны быть покрыты тестами.  
 ### Созданный граф
-![image]()
+![image](https://github.com/lckate/konfig_menegment/blob/main/home_work2/result.png)
 ### Вывод программы
 ![image](https://github.com/lckate/konfig_menegment/blob/main/home_work2/Screenshot%202024-12-09%20042633.png)
 ![image](https://github.com/lckate/konfig_menegment/blob/main/home_work2/Screenshot%202024-12-09%20042657.png)
-###Результаты тестов
+
+### Результаты тестов
 ![image](https://github.com/lckate/konfig_menegment/blob/main/home_work2/Screenshot%202024-12-09%20042707.png)
