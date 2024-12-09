@@ -13,4 +13,7 @@
 ### Созданный граф
 ![image]()
 ### Вывод программы
-![image]()
+![image](https://github.com/lckate/konfig_menegment/blob/main/home_work2/Screenshot%202024-12-09%20042633.png)
+![image](https://github.com/lckate/konfig_menegment/blob/main/home_work2/Screenshot%202024-12-09%20042657.png)
+###Результаты тестов
+![image](https://github.com/lckate/konfig_menegment/blob/main/home_work2/Screenshot%202024-12-09%20042707.png)
