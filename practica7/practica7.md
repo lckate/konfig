@@ -63,9 +63,9 @@ Piazza -> Teacher: Оценка получена
 
 # 4 Задание
 Документация проекта на Java (практика №14):
-[plf-файл с документацией](https://github.com/lckate/konfig_menegment/blob/main/practica7/refman4.pdf)
+[pdf-файл с документацией](https://github.com/lckate/konfig_menegment/blob/main/practica7/refman4.pdf)
 # 5 Задание
 Документация проекта на Python (дз №3):
-[plf-файл с документацией](https://github.com/lckate/konfig_menegment/blob/main/practica7/refman1.pdf)
+[pdf-файл с документацией](https://github.com/lckate/konfig_menegment/blob/main/practica7/refman1.pdf)
 
 
