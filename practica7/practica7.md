@@ -22,7 +22,7 @@
 \end{document}
 ```
 Картинка:
-![image]()
+![image](https://github.com/lckate/konfig_menegment/blob/main/practica7/task1.jpg)
 
 # 2 Задание
 Код на PlantUML
@@ -59,7 +59,7 @@ Piazza -> Teacher: Оценка получена
 @enduml
 ```
 Картинка:
-![image]()
+![image](https://github.com/lckate/konfig_menegment/blob/main/practica7/task2.jpg)
 
 # 4 Задание
 Документация проекта на Java (практика №14):
