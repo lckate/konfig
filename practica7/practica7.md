@@ -63,5 +63,5 @@ Piazza -> Teacher: Оценка получена
 
 # 4 Задание
 # 5 Задание
-![image](https://github.com/lckate/konfig_menegment/blob/main/practica7/refman1.pdf)
+![image]("https://github.com/lckate/konfig_menegment/blob/main/practica7/refman1.pdf")
 
