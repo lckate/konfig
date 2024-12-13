@@ -1,6 +1,7 @@
-# 1 задание
+# 1 Задание
 Код на  LaTeX:
-`\documentclass{article}
+```
+\documentclass{article}
 \usepackage[T2A]{fontenc} % Поддержка кириллицы
 \usepackage[utf8]{inputenc} % Кодировка UTF-8
 \usepackage[russian]{babel} % Подключение русского языка
@@ -18,6 +19,48 @@
 \int_{x}^{\infty} \frac{dt}{t(t^{2}-1)\log t} = \int_{x}^{\infty} \frac{1}{t\log t} \left( \sum_{m} t^{-2m} \right) dt = \sum_{m} \int_{x}^{\infty} \frac{t^{-2m}}{t\log t} dt \quad = -\sum_{m} \mathrm{li}(x^{-2m})
 \]
 
-\end{document}`
+\end{document}
+```
 Картинка:
 ![image]()
+
+# 2 Задание
+Код на PlantUML
+```
+@startuml
+
+' Убираем стандартный желтый цвет
+skinparam backgroundColor white
+skinparam sequenceArrowColor black
+skinparam actorBorderColor black
+skinparam participantBorderColor black
+skinparam noteBackgroundColor white
+skinparam noteBorderColor black
+
+' Псевдонимы
+actor "Студент Дудик Е.С." as Student
+actor "Преподаватель" as Teacher
+participant "Piazza" as Piazza
+
+' Диаграмма
+Student -> Piazza: Публикация задачи
+Piazza -> Teacher: Задача опубликована
+Teacher -> Piazza: Поиск задач
+Piazza -> Teacher: Получение задачи
+Teacher -> Piazza: Публикация решения
+Piazza -> Student: Решение опубликовано
+Student -> Piazza: Поиск решений
+Piazza -> Student: Решение найдено
+Student -> Piazza: Публикация оценки
+Piazza -> Teacher: Оценка опубликована
+Teacher -> Piazza: Проверка оценки
+Piazza -> Teacher: Оценка получена
+
+@enduml
+```
+Картинка:
+![image]()
+
+# 4 Задание
+# 5 Задание
+
