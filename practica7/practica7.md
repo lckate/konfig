@@ -62,8 +62,10 @@ Piazza -> Teacher: Оценка получена
 ![image]()
 
 # 4 Задание
-[plf-файл с документацией](https://github.com/lckate/konfig_menegment/blob/main/practica7/refman1.pdf)
-# 5 Задание
 Pdf-файл с документацией находится в папке practica7. Посмотрите, пожалуйста.
-[]()
+[plf-файл с документацией]()
+# 5 Задание
+Документация проекта на Python (дз №3):
+[plf-файл с документацией](https://github.com/lckate/konfig_menegment/blob/main/practica7/refman1.pdf)
+
 
