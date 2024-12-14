@@ -1,6 +1,6 @@
 # 1 Задание
-Написать Программу на Питоне, которая транслирует граф зависимостей civgraph в makefile в духе примера выше. Для мало знакомых с Питоном используется упрощенный вариант civgraph: [civgraph.json](civgraph.json).
-Реализация (упрощенный вариант):
+Написать Программу на Питоне, которая транслирует граф зависимостей civgraph в makefile в духе примера выше. Для мало знакомых с Питоном используется упрощенный вариант civgraph: [civgraph.json](civgraph.json).  
+Реализация (упрощенный вариант):  
 ```
 import json
 def parse_civgraph_to_makefile(input_file, output_file):
@@ -40,10 +40,50 @@ parse_civgraph_to_makefile(input_file, output_file)
 Результат работы программы:
 ![image](https://github.com/lckate/konfig_menegment/blob/main/practica6/task1.png)
 # 2 Задание
-Реализовать вариант трансляции, при котором повторный запуск make не выводит для civgraph на экран уже выполненные "задачи".
-Реализация: 
+Реализовать вариант трансляции, при котором повторный запуск make не выводит для civgraph на экран уже выполненные "задачи". 
+Реализация:   
 ```
+import json
+import os
+
+def parse_civgraph_to_makefile(input_file, output_file):
+
+    try:
+        with open(input_file, 'r', encoding='utf-8') as f:
+            civgraph = json.load(f)
+
+        # Собираем все зависимости
+        all_technologies = set(civgraph.keys())
+        all_dependencies = {dep for deps in civgraph.values() for dep in deps}
+        standalone_technologies = all_dependencies - all_technologies
+
+        with open(output_file, 'w', encoding='utf-8') as makefile:
+            # Добавляем цель по умолчанию
+            makefile.write("all: " + " ".join(all_technologies) + "\n\n")
+
+            # Записываем правила для каждой технологии
+            for tech, dependencies in civgraph.items():
+                dependencies_str = ' '.join(f"{dep}.done" for dep in dependencies)
+                makefile.write(f"{tech}.done: {dependencies_str}\n")
+                makefile.write(f"\t@echo Building {tech}\n")
+                makefile.write(f"\t@touch {tech}.done\n\n")
+
+            for tech in standalone_technologies:
+                makefile.write(f"{tech}.done:\n")
+                makefile.write(f"\t@echo Building {tech}\n")
+                makefile.write(f"\t@touch {tech}.done\n\n")
+
+        print(f"Makefile успешно создан: {output_file}")
+
+    except FileNotFoundError:
+        print(f"Файл {input_file} не найден.")
+    except json.JSONDecodeError:
+        print(f"Ошибка при чтении JSON из файла {input_file}.")
+
+input_file = "civgraph.json"
+output_file = "Makefile"
+parse_civgraph_to_makefile(input_file, output_file)
 
 ```
 Результат работы программы:
-![image]()
+![image](https://github.com/lckate/konfig_menegment/blob/main/practica6/task2.png)
